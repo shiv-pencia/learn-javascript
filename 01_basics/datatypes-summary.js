@@ -29,5 +29,24 @@ const myFunction = function(){
     console.log("Hello Shiv");
 } // Function
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myName =  "Shiv Pencia"
+let anotherName  = myName
+
+anotherName = "pencia"
 
 
+
+let userOne = {
+    email : "shiv.com",
+    upi: "upi.com"
+}
+
+let usertwo = userOne
+
+usertwo.email = "pencia.con"
+
+console.log(userOne.email);
+console.log(usertwo.email);
