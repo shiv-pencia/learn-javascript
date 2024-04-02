@@ -22,4 +22,27 @@ const obj2 = { 2: "pencia" };
 // const obj3 = { obj1,obj2};
 // const obj3 = Object.assign({},obj1,obj2)
 const obj3 = {...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
+
+
+const course = {
+  coursename : "j in hindi",
+  price: 999,
+  courseInsructor: "shiv pencia"
+}
+// course.courseInsructor
+const {courseInsructor: teacher} = course
+
+console.log(teacher);
+
+ 
+
+
+
+
+
+
+
+
+
+
