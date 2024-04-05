@@ -9,7 +9,7 @@ const temperature = 61;
 //   console.log("NO");
 // }
 
-const score = 200;
+const score = 230;
 
 if (score > 100) {
   const power = "fly";
