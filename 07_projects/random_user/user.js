@@ -9,7 +9,7 @@ async function newUser() {
     "username"
   ).innerHTML = `${data.name.title} ${data.name.first} ${data.name.last}`;
   document.getElementById("phone").innerHTML = `Phone: ${data.phone}`;
-  document.getElementById("location").innerText = data.location;
+  document.getElementById("location").innerText = data.location.city;
 }
 newUser();
 document.getElementById("button").addEventListener("click", (e) =>{
